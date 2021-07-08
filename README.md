@@ -1,7 +1,7 @@
 # panache-delete-test Project
 
 This project was created to test one bug related here:
-- https://github.com/quarkusio/quarkus/issues/18502
+- https://github.com/quarkusio/quarkus/issues/18502 - `PanacheEntityBase.delete(String query, Parameters params) doesn't work with SQL prefix - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: DELETE`
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
